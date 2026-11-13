@@ -1,0 +1,10 @@
+monthly_sales = [12500.50, 14200.75, 11800.25,
+                15600.00, 16250.50, 17500.80]
+months = ['January', 'February', 'March',
+        'April', 'May', 'June']
+
+for index, month in enumerate(months, start=1):
+    print(f"Month {index}: {month}")   
+
+for index, sales in enumerate(monthly_sales, start=1):
+        print(f"Month {index} Sales: ${sales:,.2f}")              
